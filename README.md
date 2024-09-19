@@ -38,20 +38,20 @@ so that you can use the OpenAI API SDKs with keyless (Entra) authentication. By 
 4. Then you can run the example code in this repository.
 
 
-## Running the Python example
+## Running the Java example
 
-1. If you're not already running in a Codespace or Dev Container, create a Python virtual environment.
+1. If you're not already running in a Codespace or Dev Container, create a Java virtual environment.
 
 2. Install the requirements:
 
     ```shell
-    python -m pip install -r requirements.txt
+    mvn clean install 
     ```
 
 3. Run the example:
 
     ```shell
-    python example.py
+    mvn exec:java
     ```
 
     This will use the OpenAI API SDK to make a request to the OpenAI API and print the response.
